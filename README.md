@@ -1,10 +1,10 @@
-#Mercari Price Suggestion Challenge
+#  Mercari Price Suggestion Challenge          
 
 https://www.kaggle.com/c/mercari-price-suggestion-challenge
 需要下载数据文件
 
 
-记录如下
+#### 记录如下           
 (36689, 8)
    train_id  ...                                   item_description
 0    972425  ...  Custom Bundle -1 Dark brown and 1 White Crossb...
@@ -12,7 +12,7 @@ https://www.kaggle.com/c/mercari-price-suggestion-challenge
 2   1084030  ...  Color/ Pattern - Boysenberry Very padded area ...
 
 
-调参记录
+#### 调参记录     
 xgb
 params={"max_depth":3,"learning_rate":0.1,"n_estimators":30,"silent":0,"objective":"reg:linear"}
 
