@@ -12,8 +12,8 @@
 定义词汇等级=-lg(词频)
 
 ## 依赖工具
-* Wiki2text:wikipedia解析器
-* UnicodeTokenizer:分词器
+* Wiki2txt(https://github.com/laohur/wiki2txt) :wikipedia解析器
+* UnicodeTokenizer(https://github.com/laohur/UnicodeTokenizer):分词器
 
 ## 语料
 维基百科
@@ -24,19 +24,5 @@ Wiki2text解析wikipedia
 统计词频 
 等级五内,7k，覆盖87.4%; 等级六内,33k，覆盖95.2%
 某些测试称需要几千词汇，是指圈定的几千词干。本项目的此表是频率筛选的绝对词表。
+* 产出freq.tsv  词频统计，至5.99级，约3.2万词
 
-## 术语筛选策略
-等级五以内
-
-## 百科筛选策略
-首句,太大了
-总计筛选百科2234条首句，总计111612词，等级五包含5680词，等级六包含9714，更罕见词3886个，覆盖85.5%文本。
-
-
-##  排版
-等级六太大，仅仅输出等级五
-条例
-    标题
-    正文
-    术语
-    "word","phonetic","definition","translation","root","lemma"，"degre"
